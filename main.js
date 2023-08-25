@@ -17,9 +17,9 @@ module.exports.requestHooks = [
         
         console.log('route is nats')
 
-        const url = route[2] ?? 'localhost'
-        const port = route[3] ?? ':4222'
-        const queue = route[4];
+        const url = route[3] ?? 'localhost'
+        const port = route[4] ?? ':4222'
+        const queue = route[5];
         context.request.addHeader('url', url)
         context.request.addHeader('port', port)
         context.request.addHeader('queue', queue)
