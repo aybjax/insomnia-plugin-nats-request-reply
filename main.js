@@ -9,7 +9,7 @@ const { connect, Empty, StringCodec } = require("nats");
 
 module.exports.requestHooks = [
     async function (context) {
-        const route = /^(https?:\/\/)?nats(:[a-zA-z0-9-_]+)?(:\d+)\/(.+)$/.exec(context.request.getUrl());
+        const route = /^(https?:\/\/)?nats(:[a-zA-Z0-9-_]+)?(:\d+)\/(.+)$/.exec(context.request.getUrl());
 
         if(!route) {
             return
