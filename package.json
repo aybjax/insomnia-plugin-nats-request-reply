@@ -1,0 +1,17 @@
+{
+  "name": "insomnia-plugin-nats-request-reply",
+  "version": "0.0.1",
+  "private": false,
+  "insomnia": {
+    "name": "nats-request-reply",
+    "description": "",
+    "publisher": {
+      "name": "Aybjax",
+      "icon": "https://avatars.githubusercontent.com/u/20273037?v=4"
+    }
+  },
+  "main": "main.js",
+  "dependencies": {
+    "nats": "^2.16.0"
+  }
+}
