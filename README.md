@@ -13,3 +13,8 @@
 
 ### Add this plugin
  - Application => Preferences => Plugins => install
+
+
+
+## NB
+### Makes https://google.com in order to avoid errors
